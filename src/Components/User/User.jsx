@@ -13,7 +13,7 @@ const User = ({ user }) => {
       <h2>Name:{name} </h2>
       <p>UserName: {username} </p>
       <p>Website:{website} </p>
-      <Link to={`/users/${id}`}>Show Details</Link>
+      <Link to={`/user/${id}`}>Show Details</Link>
     </div>
   );
 };
